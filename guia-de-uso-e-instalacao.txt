@@ -1,0 +1,36 @@
+Guia de Uso - Instalação e Execução da Aplicação Calculadora de Emergía em Java
+
+Pré-requisitos:
+
+Java Development Kit (JDK) instalado (versão 8 ou superior)
+Editor de texto ou IDE para Java (Eclipse, IntelliJ, VSCode, etc.)
+Biblioteca JFreeChart e JCommon (já incluídas no projeto como jfreechart-1.5.3.jar e jcommon-1.0.24.jar)
+Configuração do Projeto:
+
+Certifique-se de que os arquivos .java estão na pasta src/
+Certifique-se de que os arquivos jar (jfreechart-1.5.3.jar e jcommon-1.0.24.jar) estão no diretório raiz do projeto
+Compilação:
+
+Abra o terminal na pasta raiz do projeto (onde estão os jars e a pasta src)
+Compile os arquivos Java incluindo os jars no classpath:
+
+javac -cp ".;jfreechart-1.5.3.jar;jcommon-1.0.24.jar" src/*.java
+Isso gerará os arquivos .class na pasta src/
+Execução:
+
+Execute a aplicação principal Main incluindo os jars no classpath:
+
+java -cp ".;jfreechart-1.5.3.jar;jcommon-1.0.24.jar;src" Main
+A interface gráfica será aberta com o menu para acessar as funcionalidades
+Uso da Aplicação:
+
+No menu, escolha:
+"Calculadora" para usar a calculadora de emergia
+"Conceito de Emergía" para ler a explicação do conceito
+"Simulação de Emergía" para fazer simulações com entrada de dados
+"Fluxos de Energia" para visualizar o gráfico de pizza dos fluxos
+"Gerar Relatório" para criar um arquivo texto "relatorio_emergia.txt" com resultados de exemplo
+Arquivo de Relatório:
+
+O relatório será salvo no diretório raiz do projeto com o nome "relatorio_emergia.txt"
+Contém um exemplo fixo de resultados da simulação

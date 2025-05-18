@@ -1,0 +1,10 @@
+Relatório de Simulação de Emergía
+===============================
+Este relatório contém os resultados das simulações feitas na aplicação.
+
+Exemplo de resultado:
+Energia de entrada: 1000 J
+Recursos utilizados: 5
+Emergía calculada: 7500
+
+Obrigado por usar a calculadora de emergía.
